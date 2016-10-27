@@ -1,4 +1,4 @@
-FROM ubuntu:16.04
+FROM frolvlad/alpine-oraclejdk8:slim
 MAINTAINER Lubo Drobny (lubo.drobny@gmail.com)
 VOLUME /tmp
 ADD lubod.demos.uservices.service-0.0.1-SNAPSHOT.jar app.jar
